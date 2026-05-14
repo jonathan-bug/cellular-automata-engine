@@ -45,8 +45,8 @@ The engine operates on a **128** x **64** grid.
 |Erase|Right Click|
 |Start/Pause|Space|
 |Move|W, A, S, D|
-|Export Design|E|
-|Import / Reload Design|Q|
+|Quick Save (Buffer)|E|
+|Quick Load (Buffer)|Q|
 |Clear Grid|R|
 |Zoom|Mouse Scroll|
 |Auto Center|Left Shift|
