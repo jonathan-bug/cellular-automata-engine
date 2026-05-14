@@ -9,6 +9,7 @@
 typedef struct {
     uint8_t f_buffer[BUFFER_WIDTH * BUFFER_HEIGHT];
     uint8_t b_buffer[BUFFER_WIDTH * BUFFER_HEIGHT];
+    uint8_t quick_buffer[BUFFER_WIDTH * BUFFER_HEIGHT];
 
     uint8_t *read_buffer;
     uint8_t *write_buffer;

@@ -6,6 +6,7 @@
 void init_engine(Engine *engine) {
     memset(engine->f_buffer, 0, sizeof(engine->f_buffer));
     memset(engine->b_buffer, 0, sizeof(engine->b_buffer));
+    memset(engine->quick_buffer, 0, sizeof(engine->quick_buffer));
 
     engine->read_buffer = engine->f_buffer;
     engine->write_buffer = engine->b_buffer;
