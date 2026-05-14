@@ -9,6 +9,8 @@ int main() {
     const int screen_width = 64 * 20;
     const int screen_height = 32 * 20;
 
+    SetConfigFlags(FLAG_WINDOW_RESIZABLE);
+    SetConfigFlags(FLAG_WINDOW_HIGHDPI);
     InitWindow(screen_width, screen_height, "Cellular automata engine");
     SetTargetFPS(60);
 
