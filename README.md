@@ -1,5 +1,5 @@
 # Cellular Automata Engine
-Cellular automata engine developed in **C** using **Raylib**.
+Cellular automata engine developed in **C** using **Raylib** and **Raygui**.
 
 ![Gameplay Demo](media/gameplay.gif)
 
@@ -13,6 +13,7 @@ Cellular automata engine developed in **C** using **Raylib**.
 * **CMake 3.12**
 * **GCC**
 * **Raylib**: Manual installation not required; the `CMakeLists.txt` automatically downloads it from the official repository during configuration.
+* **Raygui**: Manual installation not required; the `CMakeLists.txt` automatically downloads it from the official repository during configuration.
 
 ## Installation
 1. `git clone https://github.com/jonathan-bug/cellular-automata-engine.git`
