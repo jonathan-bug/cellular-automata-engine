@@ -10,7 +10,7 @@ Cellular automata engine developed in **C** using **Raylib** and **Raygui**.
 - [Controls](#controls)
 
 ## Requirements
-* **CMake 3.12**
+* **CMake 3.12+**
 * **GCC**
 * **Raylib**: Manual installation not required; the `CMakeLists.txt` automatically downloads it from the official repository during configuration.
 * **Raygui**: Manual installation not required; the `CMakeLists.txt` automatically downloads it from the official repository during configuration.
